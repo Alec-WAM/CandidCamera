@@ -1,0 +1,1299 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.5f1 (e2c53f129de5) revision 14861631'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 16324 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2020.2.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Unity/Candid Camera
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56044
+Successfully changed project path to: D:/Unity/Candid Camera
+D:/Unity/Candid Camera
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 26.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.5f1 (e2c53f129de5)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.2.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Candid Camera/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 480 Graphics (ID=0x67df)
+    Vendor:   
+    VRAM:     4075 MB
+    Driver:   27.20.14501.18003
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.2.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.2.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001747 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 25.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000635 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.801 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.1 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1546.
+Total: 1.789400 ms (FindLiveObjects: 0.124700 ms CreateObjectMapping: 0.070700 ms MarkObjects: 1.510000 ms  DeleteObjects: 0.083200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/simple modular human/prefabs
+  artifactKey: Guid(1254f398e4bd22b47b78719faa1b20a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs using Guid(1254f398e4bd22b47b78719faa1b20a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2172268b77760ad481eecc5dd482b7d') in 0.019008 seconds
+  Import took 0.021086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/simple modular human/prefabs/fireaxe_prefab.prefab
+  artifactKey: Guid(4c82e14df58323a4eab2a14cf090eac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/fireaxe_prefab.prefab using Guid(4c82e14df58323a4eab2a14cf090eac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057f2a88b5abb33a9e673fb26632312f') in 0.168764 seconds
+  Import took 0.171071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/simple modular human/Info_a.png
+  artifactKey: Guid(f5a3249918d9333479567375417d9200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/Info_a.png using Guid(f5a3249918d9333479567375417d9200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfe4cea8cd62a36107abb63a2272b92') in 0.100765 seconds
+  Import took 0.102693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/simple modular human/prefabs/9mm_prefab.prefab
+  artifactKey: Guid(0b252c8c2ac42104aa3f45b40304bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/9mm_prefab.prefab using Guid(0b252c8c2ac42104aa3f45b40304bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c560b0b0481da727577ff0e3eef71fc6') in 0.019651 seconds
+  Import took 0.021905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/simple modular human/texture_materials
+  artifactKey: Guid(a970326df59ccad469bfd63cbc94261e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials using Guid(a970326df59ccad469bfd63cbc94261e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344983f52bd71aae1ea0943bd4e64e0a') in 0.007393 seconds
+  Import took 0.009496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/simple modular human/Info_b.PNG
+  artifactKey: Guid(570e07c429a41604eb33a7cbc9092956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/Info_b.PNG using Guid(570e07c429a41604eb33a7cbc9092956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d10f936ac3f8f7cc5835f26285b988') in 0.019699 seconds
+  Import took 0.021759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/simple modular human/prefabs/phone_prefab.prefab
+  artifactKey: Guid(ed9c68deba85fbc439267aa1ae6b7fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/phone_prefab.prefab using Guid(ed9c68deba85fbc439267aa1ae6b7fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522f73f81b2892ed8811a019e1d93e57') in 0.020361 seconds
+  Import took 0.022743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/simple modular human/scene
+  artifactKey: Guid(b6bcf5d04ddf32243ab40a0f0442cb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/scene using Guid(b6bcf5d04ddf32243ab40a0f0442cb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1c2668a2ce6988a3bd79c5acee49e5') in 0.005958 seconds
+  Import took 0.008146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/simple modular human/prefabs/cigarette_prefab.prefab
+  artifactKey: Guid(374fb54b0703b7941981faf78241cc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/cigarette_prefab.prefab using Guid(374fb54b0703b7941981faf78241cc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332bffba51db5e130be7db71ec2febc0') in 0.127585 seconds
+  Import took 0.129643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/simple modular human/prefabs/Custom simple human_prefab.prefab
+  artifactKey: Guid(d6112008cba14c147b799fa5f0944f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/Custom simple human_prefab.prefab using Guid(d6112008cba14c147b799fa5f0944f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80ef863002b92f6ca6550bcabbd20a9') in 0.288081 seconds
+  Import took 0.292308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/simple modular human/prefabs/crowbar_prefab.prefab
+  artifactKey: Guid(9e0f5e3a7de4bae4caaa811ad88fe796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/crowbar_prefab.prefab using Guid(9e0f5e3a7de4bae4caaa811ad88fe796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a4465ea632c02cc0ca4f6851f7b418') in 0.027098 seconds
+  Import took 0.029213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/simple modular human/prefabs/Glock_prefab.prefab
+  artifactKey: Guid(1570851038755b342bd3393c22532f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/Glock_prefab.prefab using Guid(1570851038755b342bd3393c22532f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d099ea7f5b928de231cb5a275888c1') in 0.026190 seconds
+  Import took 0.028193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/simple modular human
+  artifactKey: Guid(fc70f1bfb015d3b40aa4cc12d9c0a173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human using Guid(fc70f1bfb015d3b40aa4cc12d9c0a173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3349d03b28b58d5158c4787a1f7c0d67') in 0.008059 seconds
+  Import took 0.010072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.438591 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures
+  artifactKey: Guid(b2c16fa1d4369ff42802147980304e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures using Guid(b2c16fa1d4369ff42802147980304e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6d465d05567215f4f972b1aa770657') in 0.007761 seconds
+  Import took 0.010001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111837 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/bench.mat
+  artifactKey: Guid(133697a032ae7a94499655c20da6adb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/bench.mat using Guid(133697a032ae7a94499655c20da6adb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e221d3ea3cdd4eaae8785bbd454340ad') in 0.361042 seconds
+  Import took 0.363352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/chair.png
+  artifactKey: Guid(34322cbb84261bd418a4be9fb967f679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/chair.png using Guid(34322cbb84261bd418a4be9fb967f679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821fa93d261cd20576d31d509f19d1ec') in 0.016194 seconds
+  Import took 0.018190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/bin.png
+  artifactKey: Guid(629a975e08230b44686dd03ca38ce52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/bin.png using Guid(629a975e08230b44686dd03ca38ce52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6451472607ceb04cbb4e6ac9d8c8005') in 0.017315 seconds
+  Import took 0.019663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/grid.mat
+  artifactKey: Guid(757a2dadf432e534a8aa7fc413666b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/grid.mat using Guid(757a2dadf432e534a8aa7fc413666b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb15b339f89c876d69aa56246e05c16f') in 0.018265 seconds
+  Import took 0.020473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/grid.png
+  artifactKey: Guid(7e9f26d57b10d1a4ebc686d40e96bbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/grid.png using Guid(7e9f26d57b10d1a4ebc686d40e96bbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0224a83631c31ab9275760449aa98b5f') in 0.019285 seconds
+  Import took 0.022008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/bin.mat
+  artifactKey: Guid(02ac03e5ad810f848bfc1b3f3017d163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/bin.mat using Guid(02ac03e5ad810f848bfc1b3f3017d163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826c90b335dd77feec03558312bc2771') in 0.015637 seconds
+  Import took 0.018457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/steal_point.mat
+  artifactKey: Guid(531d903dfe470ed45b8d2cf460a11898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/steal_point.mat using Guid(531d903dfe470ed45b8d2cf460a11898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd655ccd92a811e8ac06abfcd0c46583e') in 0.026556 seconds
+  Import took 0.029310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/sweet_machine.mat
+  artifactKey: Guid(c61d2e4d54e38e24ab35893f01591c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/sweet_machine.mat using Guid(c61d2e4d54e38e24ab35893f01591c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b651df8dd5651ae6865540861eee45a') in 0.022516 seconds
+  Import took 0.024640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/umbrella.png
+  artifactKey: Guid(0ef3cc39c7156f648a3e3115e1f57278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/umbrella.png using Guid(0ef3cc39c7156f648a3e3115e1f57278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfaca86355528e8aa041c015f28aa77') in 0.015411 seconds
+  Import took 0.019784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000668 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/tree.mat
+  artifactKey: Guid(cf6578c7dd60a874c9be01dcc0c2d071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/tree.mat using Guid(cf6578c7dd60a874c9be01dcc0c2d071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98405f1afb7eb4066b1db34c15fe8208') in 0.019469 seconds
+  Import took 0.021495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/wood.mat
+  artifactKey: Guid(fa950b7475ac6ad4081375e0b73b4ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/wood.mat using Guid(fa950b7475ac6ad4081375e0b73b4ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db38d384f3b6c2c8ec66a09d7011746b') in 0.021809 seconds
+  Import took 0.023586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/grid2.png
+  artifactKey: Guid(fe237327f51b0cd41b3abbbc4a43e06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/grid2.png using Guid(fe237327f51b0cd41b3abbbc4a43e06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd336645e5812267216f8f061c1bde38') in 0.018365 seconds
+  Import took 0.020555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/chair.mat
+  artifactKey: Guid(dfd6e66c288cef34aa2c76e9773def30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/chair.mat using Guid(dfd6e66c288cef34aa2c76e9773def30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395a631c8c03c6148f47c2eb0a5dfba7') in 0.012432 seconds
+  Import took 0.014679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/table.mat
+  artifactKey: Guid(75209bfd26c2e3d48903c9298c37a29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/table.mat using Guid(75209bfd26c2e3d48903c9298c37a29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb99177241824dc61db943c765f3e4e') in 0.013053 seconds
+  Import took 0.015046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/sitting_point.mat
+  artifactKey: Guid(39764062c7287d94e8491bb43e315628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/sitting_point.mat using Guid(39764062c7287d94e8491bb43e315628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5534945e3186629d4fbc78f3ad9fbd0') in 0.019784 seconds
+  Import took 0.023028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/table.png
+  artifactKey: Guid(d6372d05dbaa5284abd27d3459d880ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/table.png using Guid(d6372d05dbaa5284abd27d3459d880ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5479f054593cdcb56a1e49ab187987') in 0.013726 seconds
+  Import took 0.016341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/grid2.mat
+  artifactKey: Guid(a2a41d0fe5c9eff4da1be3e84677b45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/grid2.mat using Guid(a2a41d0fe5c9eff4da1be3e84677b45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44577b3e1f5ea886d58c62e95cbe2d54') in 0.017396 seconds
+  Import took 0.019333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/pickup_point.mat
+  artifactKey: Guid(78f20bf221527fb498fbcd3f789a53cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/pickup_point.mat using Guid(78f20bf221527fb498fbcd3f789a53cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3ab4ec6166b905959f73eb0b9306f7') in 0.021655 seconds
+  Import took 0.023725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/sweet_machine.png
+  artifactKey: Guid(17e21bb0d80971b4595584c1a737a332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/sweet_machine.png using Guid(17e21bb0d80971b4595584c1a737a332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64127532252dc569e302ff6c99fc8f6d') in 0.013807 seconds
+  Import took 0.015661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/umbrella.mat
+  artifactKey: Guid(8b64ac7ad7e775a4f9fdba4301e1593e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/umbrella.mat using Guid(8b64ac7ad7e775a4f9fdba4301e1593e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83331a76ed095161f24563d518f0d3a3') in 0.018829 seconds
+  Import took 0.021266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/tree.png
+  artifactKey: Guid(6253f75045098cb4e996a6bf4966b05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/tree.png using Guid(6253f75045098cb4e996a6bf4966b05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a328c92f457b4dd2b321a5a579de5167') in 0.010034 seconds
+  Import took 0.012153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/bench.png
+  artifactKey: Guid(77b277cf32b3db94c85b4fd2053fdff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/bench.png using Guid(77b277cf32b3db94c85b4fd2053fdff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2925714a34e0a882345b2b91b260a51c') in 0.011312 seconds
+  Import took 0.013950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/Walk_point.mat
+  artifactKey: Guid(b8c4a681402417940b688251ce9aa554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/Walk_point.mat using Guid(b8c4a681402417940b688251ce9aa554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0386c85dcfa1ad5e81f61c07540f906') in 0.020217 seconds
+  Import took 0.022559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/simple modular human/texture_materials/test_terrain_materials_textures/glass.mat
+  artifactKey: Guid(bdb453fe8a2ad554ab2e10daf54f3713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/test_terrain_materials_textures/glass.mat using Guid(bdb453fe8a2ad554ab2e10daf54f3713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf60f6903c13850bb798607cd146a38') in 0.235702 seconds
+  Import took 0.238216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.709239 seconds.
+  path: Assets/simple modular human/texture_materials/cloth
+  artifactKey: Guid(3ac7f1f21bd25c54180ef29280cffb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth using Guid(3ac7f1f21bd25c54180ef29280cffb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e4278a189ea28e795d1de7872fa885') in 0.007388 seconds
+  Import took 0.009466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.711984 seconds.
+  path: Assets/simple modular human/texture_materials/skins
+  artifactKey: Guid(512bfea902e72b749bef16783342ad62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/skins using Guid(512bfea902e72b749bef16783342ad62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8f92d37ca05e30dc9ff6249372a606') in 0.010014 seconds
+  Import took 0.013051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107984 seconds.
+  path: Assets/simple modular human/texture_materials/skins/skin.mat
+  artifactKey: Guid(876cdc4b3d56a2844975177a3a879816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/skins/skin.mat using Guid(876cdc4b3d56a2844975177a3a879816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43738da1b0678097e1e647cb7b4496d3') in 0.015917 seconds
+  Import took 0.018040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/simple modular human/texture_materials/skins/skin_white_brown.png
+  artifactKey: Guid(ceabbdf01d99c5a4e956fde76c95c2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/skins/skin_white_brown.png using Guid(ceabbdf01d99c5a4e956fde76c95c2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a517c8a97b905e7a000b18c03f0f001') in 0.032021 seconds
+  Import took 0.034100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/simple modular human/texture_materials/skins/skin_Lightbrown_brown.png
+  artifactKey: Guid(333350cce72d80c43886bad96861b7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/skins/skin_Lightbrown_brown.png using Guid(333350cce72d80c43886bad96861b7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4053ffa2bf00955d7617e994914712f1') in 0.020315 seconds
+  Import took 0.022153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/simple modular human/texture_materials/skins/skin_brown_brown.png
+  artifactKey: Guid(1a546b27e2a47c1489b477172c21c6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/skins/skin_brown_brown.png using Guid(1a546b27e2a47c1489b477172c21c6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8ec83be34e1348f91e3b829d0ec6f9') in 0.019895 seconds
+  Import took 0.022312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/simple modular human/texture_materials/skins/skin_white_blue.png
+  artifactKey: Guid(4d9d136347a3d9e48b1e59a2e36ae2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/skins/skin_white_blue.png using Guid(4d9d136347a3d9e48b1e59a2e36ae2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47dd0b5db33e32acff413a869865450') in 0.016762 seconds
+  Import took 0.019384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/simple modular human/texture_materials/skins/skin_white_grey.png
+  artifactKey: Guid(0537cfc3f11c8474b8081eace277fb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/skins/skin_white_grey.png using Guid(0537cfc3f11c8474b8081eace277fb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dace07d058ecab156e1ab64a337ff0') in 0.020750 seconds
+  Import took 0.022610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/simple modular human/texture_materials/skins/skin_white_green.png
+  artifactKey: Guid(e7a209c30ebd76d42ae49d88620e5004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/skins/skin_white_green.png using Guid(e7a209c30ebd76d42ae49d88620e5004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d93b8e2edf49066d1c97bcbfb3d23ac') in 0.017604 seconds
+  Import took 0.020392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002199 seconds.
+  path: Assets/simple modular human/texture_materials/skins/skin_white_green.png
+  artifactKey: Guid(e7a209c30ebd76d42ae49d88620e5004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/skins/skin_white_green.png using Guid(e7a209c30ebd76d42ae49d88620e5004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d93b8e2edf49066d1c97bcbfb3d23ac') in 0.008355 seconds
+  Import took 0.010654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.519300 seconds.
+  path: Assets/simple modular human/texture_materials/beard
+  artifactKey: Guid(1b26e61cd8b9bdb44a5243947db02bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/beard using Guid(1b26e61cd8b9bdb44a5243947db02bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425c45197d5560919e51fff74bc6d99c') in 0.006995 seconds
+  Import took 0.008800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127397 seconds.
+  path: Assets/simple modular human/texture_materials/beard/beard.mat
+  artifactKey: Guid(84accf9a944057d488818bb5cf08433c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/beard/beard.mat using Guid(84accf9a944057d488818bb5cf08433c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c292f11051a9734885fb1aa1f0b51721') in 0.013850 seconds
+  Import took 0.015950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/simple modular human/texture_materials/beard/beard_a.png
+  artifactKey: Guid(a80a879060689e94d9f85c85092a6b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/beard/beard_a.png using Guid(a80a879060689e94d9f85c85092a6b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbcb52151ac34c360b984a9ca3c7314') in 0.020842 seconds
+  Import took 0.024415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/simple modular human/texture_materials/beard/beard_b.png
+  artifactKey: Guid(95318fc4a242beb4190015a480789644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/beard/beard_b.png using Guid(95318fc4a242beb4190015a480789644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4469f5700525943eec904800c3d4c618') in 0.019114 seconds
+  Import took 0.021018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/simple modular human/texture_materials/beard/beard_c.png
+  artifactKey: Guid(73f6446de9814f249911d127d0921a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/beard/beard_c.png using Guid(73f6446de9814f249911d127d0921a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595ab656653abe9ce8fe2c333e1c3356') in 0.020083 seconds
+  Import took 0.022080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/simple modular human/texture_materials/beard/beard_b.png
+  artifactKey: Guid(95318fc4a242beb4190015a480789644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/beard/beard_b.png using Guid(95318fc4a242beb4190015a480789644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4469f5700525943eec904800c3d4c618') in 0.009194 seconds
+  Import took 0.011210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/simple modular human/texture_materials/beard/beard_c.png
+  artifactKey: Guid(73f6446de9814f249911d127d0921a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/beard/beard_c.png using Guid(73f6446de9814f249911d127d0921a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595ab656653abe9ce8fe2c333e1c3356') in 0.011217 seconds
+  Import took 0.013212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.165773 seconds.
+  path: Assets/simple modular human/scripts
+  artifactKey: Guid(66b0084a4c2b2fc49bd4cea84a353d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/scripts using Guid(66b0084a4c2b2fc49bd4cea84a353d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967279a2cdd4aecfbf52f3a1cd18733a') in 0.007476 seconds
+  Import took 0.009367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.854850 seconds.
+  path: Assets/simple modular human/scripts/clothing.cs
+  artifactKey: Guid(6a5463dada0132a49b85f235160edf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/scripts/clothing.cs using Guid(6a5463dada0132a49b85f235160edf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647278fe6d25c2a335d336321a3c67c5') in 0.018444 seconds
+  Import took 0.020588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024179 seconds.
+  path: Assets/simple modular human/scripts/clothing.cs
+  artifactKey: Guid(6a5463dada0132a49b85f235160edf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/scripts/clothing.cs using Guid(6a5463dada0132a49b85f235160edf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647278fe6d25c2a335d336321a3c67c5') in 0.002433 seconds
+  Import took 0.004706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.319208 seconds.
+  path: Assets/simple modular human/scripts/Test_script.cs
+  artifactKey: Guid(7b52a656e663b134ab6a35060e5b1c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/scripts/Test_script.cs using Guid(7b52a656e663b134ab6a35060e5b1c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a31d5728111b9394ccc02b50f8be2ce') in 0.010390 seconds
+  Import took 0.013049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001146 seconds.
+  path: Assets/simple modular human/scripts/Test_script.cs
+  artifactKey: Guid(7b52a656e663b134ab6a35060e5b1c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/scripts/Test_script.cs using Guid(7b52a656e663b134ab6a35060e5b1c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a31d5728111b9394ccc02b50f8be2ce') in 0.003048 seconds
+  Import took 0.006174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 262.004300 seconds.
+  path: Assets/simple modular human/source_files
+  artifactKey: Guid(08c993015dcabee42bc4e66a32ec8851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/source_files using Guid(08c993015dcabee42bc4e66a32ec8851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ddad3b43c077af34025cbd041a7905') in 0.007958 seconds
+  Import took 0.010107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.135907 seconds.
+  path: Assets/simple modular human/source_files/Custom simple human.fbx
+  artifactKey: Guid(d83e07c47cb17454bbddbc5dd7574150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/source_files/Custom simple human.fbx using Guid(d83e07c47cb17454bbddbc5dd7574150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7970dbc3432ef5a2efdc3e0308008bb') in 0.548428 seconds
+  Import took 0.553421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/simple modular human/source_files/put_on_legs.mask
+  artifactKey: Guid(73ea2c0b987d1cc41b57e46ac2111abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/source_files/put_on_legs.mask using Guid(73ea2c0b987d1cc41b57e46ac2111abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a25c9b901456c390dae4e7895722a49') in 0.011666 seconds
+  Import took 0.013824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/simple modular human/source_files/put_on_arms.mask
+  artifactKey: Guid(1dbefcac955e83a40b16d0d35536f819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/source_files/put_on_arms.mask using Guid(1dbefcac955e83a40b16d0d35536f819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aaa1659d034ae07a393c09b99041fe8') in 0.009050 seconds
+  Import took 0.011143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.504353 seconds.
+  path: Assets/simple modular human/source_files/props
+  artifactKey: Guid(3bb5b4fb87161184f8c457d26f1b73cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/source_files/props using Guid(3bb5b4fb87161184f8c457d26f1b73cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a449b486b885140c3e0aa41d471b1fee') in 0.007570 seconds
+  Import took 0.009450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133962 seconds.
+  path: Assets/simple modular human/source_files/props/9mm.fbx
+  artifactKey: Guid(bccf5951fdc842549a78d9427865c51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/source_files/props/9mm.fbx using Guid(bccf5951fdc842549a78d9427865c51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e09c3b7e4687876de66248a80161ada') in 0.025067 seconds
+  Import took 0.027190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/simple modular human/source_files/props/phone.fbx
+  artifactKey: Guid(32964fe5878c5a64396c2962da649106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/source_files/props/phone.fbx using Guid(32964fe5878c5a64396c2962da649106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df9e5c48a349d026597728bd332de89') in 0.033466 seconds
+  Import took 0.035272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/simple modular human/source_files/props/cigarette.fbx
+  artifactKey: Guid(a3dc45033c1395049b4c2ba69d070bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/source_files/props/cigarette.fbx using Guid(a3dc45033c1395049b4c2ba69d070bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe0af36dc437d6c9554512707210ac2') in 0.029627 seconds
+  Import took 0.031760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/simple modular human/source_files/props/fireaxe.fbx
+  artifactKey: Guid(7cd3b631a5d92bd4285a224ec779649f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/source_files/props/fireaxe.fbx using Guid(7cd3b631a5d92bd4285a224ec779649f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8f54780d13bab2a30e146a30429c70') in 0.030539 seconds
+  Import took 0.033083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/simple modular human/source_files/props/Glock.fbx
+  artifactKey: Guid(6d96e4c06314496409fe758064b891b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/source_files/props/Glock.fbx using Guid(6d96e4c06314496409fe758064b891b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffc311d502a3704732c42ba147000a3') in 0.033277 seconds
+  Import took 0.037151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/simple modular human/source_files/props/crowbar.fbx
+  artifactKey: Guid(7821be7678b08bb48ba29568e9598458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/source_files/props/crowbar.fbx using Guid(7821be7678b08bb48ba29568e9598458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5e2eb07a0dcd4dbc0836cf46e77f93') in 0.031083 seconds
+  Import took 0.032914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.448676 seconds.
+  path: Assets/simple modular human/source_files/human.controller
+  artifactKey: Guid(64d78995d526da546a4d58f9211e5156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/source_files/human.controller using Guid(64d78995d526da546a4d58f9211e5156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a603d98f3ee70d10bbaa041300942e3') in 0.021510 seconds
+  Import took 0.025360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 729.868466 seconds.
+  path: Assets/simple modular human/readMe.txt
+  artifactKey: Guid(607d0e2dfba104c49b7df7435f540d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/readMe.txt using Guid(607d0e2dfba104c49b7df7435f540d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e4b28fa33225c28d2bd6d562767fb5') in 0.015130 seconds
+  Import took 0.017662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004352 seconds.
+  path: Assets/simple modular human/readMe.txt
+  artifactKey: Guid(607d0e2dfba104c49b7df7435f540d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/readMe.txt using Guid(607d0e2dfba104c49b7df7435f540d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e4b28fa33225c28d2bd6d562767fb5') in 0.003798 seconds
+  Import took 0.005998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 237.357119 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers.mat
+  artifactKey: Guid(a0ba06dcbe7e3614abc1a839e6b911d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers.mat using Guid(a0ba06dcbe7e3614abc1a839e6b911d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8d6bf4c499aeca08fc08ebb8419e94') in 0.031391 seconds
+  Import took 0.035803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers_h.png
+  artifactKey: Guid(324555ded99675840878b4440f07a18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers_h.png using Guid(324555ded99675840878b4440f07a18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d6c5b0f7d573fd9eeec0c9642867d7') in 0.025730 seconds
+  Import took 0.029285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers_n.png
+  artifactKey: Guid(6269eb3a8378a8242b1a4afb004778d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers_n.png using Guid(6269eb3a8378a8242b1a4afb004778d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa66513accdeb00002e66337b57ac2d4') in 0.033912 seconds
+  Import took 0.036790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000859 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers_g.png
+  artifactKey: Guid(bea52e7a25067b44e98d6b5c2e092e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers_g.png using Guid(bea52e7a25067b44e98d6b5c2e092e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be02e9f385d974ea61fa2dfa82b6c747') in 0.027471 seconds
+  Import took 0.032665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers_i.png
+  artifactKey: Guid(5d3d637dfe116b24d8fd8f0ad3a6e704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers_i.png using Guid(5d3d637dfe116b24d8fd8f0ad3a6e704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e24b47b1706b36b03582ed99b85cb92') in 0.027596 seconds
+  Import took 0.029716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers_l.png
+  artifactKey: Guid(91ed36703f9c8d143a369f29cf34b90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers_l.png using Guid(91ed36703f9c8d143a369f29cf34b90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475d884f407e0bbac59276419c7e11f5') in 0.033714 seconds
+  Import took 0.036205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers_e.png
+  artifactKey: Guid(c34f7dd3bccc7b0459e80396120dbf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers_e.png using Guid(c34f7dd3bccc7b0459e80396120dbf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22744fb7bda61800a37ba2bf789c2583') in 0.020687 seconds
+  Import took 0.024513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers_f.png
+  artifactKey: Guid(73da8863b12b4c1488d04232c221621d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers_f.png using Guid(73da8863b12b4c1488d04232c221621d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed236fbd6ab292d9c12f958cc89d491c') in 0.029727 seconds
+  Import took 0.032608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers_o.png
+  artifactKey: Guid(4a35a1bacc4f6ce43ba1e205018b24c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers_o.png using Guid(4a35a1bacc4f6ce43ba1e205018b24c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1385f51af9e2103b4f663c1d754d50a1') in 0.021086 seconds
+  Import took 0.035105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers_c.png
+  artifactKey: Guid(8977fa83223173e47be893f7113183f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers_c.png using Guid(8977fa83223173e47be893f7113183f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf13b8a71464794984b9e2b81e1147d3') in 0.021284 seconds
+  Import took 0.024056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers_d.png
+  artifactKey: Guid(fccbd6405e3ed5947a867e442509d93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers_d.png using Guid(fccbd6405e3ed5947a867e442509d93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e903c0d0d1b285b1333244d5e41540a') in 0.024115 seconds
+  Import took 0.027114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers_b.png
+  artifactKey: Guid(9fc9d50568f0cd8419f7d832af59d7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers_b.png using Guid(9fc9d50568f0cd8419f7d832af59d7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d06ce46eed4e829b05a75359b0e623') in 0.019940 seconds
+  Import took 0.022178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers_k.png
+  artifactKey: Guid(5702174086e1b3049af7da98b0307789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers_k.png using Guid(5702174086e1b3049af7da98b0307789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6072f6c60e8c9c51f6c17c4d6452c18f') in 0.020519 seconds
+  Import took 0.023282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers_a.png
+  artifactKey: Guid(0639a9ef87051624eb11a2f500d68f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers_a.png using Guid(0639a9ef87051624eb11a2f500d68f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a49576a7991d6f7fda87e1f80bc11e') in 0.020314 seconds
+  Import took 0.022420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers_m.png
+  artifactKey: Guid(996bfd217498369448ef837f1a7b7c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers_m.png using Guid(996bfd217498369448ef837f1a7b7c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2a1d3f457e9536bc2c207cdd539a5d') in 0.023365 seconds
+  Import took 0.026187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers.mat
+  artifactKey: Guid(a0ba06dcbe7e3614abc1a839e6b911d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers.mat using Guid(a0ba06dcbe7e3614abc1a839e6b911d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8d6bf4c499aeca08fc08ebb8419e94') in 0.015172 seconds
+  Import took 0.017464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers/trousers_j.png
+  artifactKey: Guid(a71721af18752f146a9c41aae12362ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers/trousers_j.png using Guid(a71721af18752f146a9c41aae12362ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc58201925fccd9e137fc824b50bd1c') in 0.025930 seconds
+  Import took 0.027843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.443663 seconds.
+  path: Assets/simple modular human/texture_materials/cloth/trousers
+  artifactKey: Guid(68cb36601b786a544a3ade467a6fbe6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/texture_materials/cloth/trousers using Guid(68cb36601b786a544a3ade467a6fbe6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0903ec3a8cb831b8a7c3df507e776f6') in 0.004364 seconds
+  Import took 0.006431 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000640 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.9 MB.
+System memory in use after: 75.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1603.
+Total: 1.524500 ms (FindLiveObjects: 0.122800 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.287300 ms  DeleteObjects: 0.080400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 244.902202 seconds.
+  path: Assets/simple modular human/prefabs/test terrain prefabs
+  artifactKey: Guid(93f4ee3a77722fe40949902ebc2fd2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/test terrain prefabs using Guid(93f4ee3a77722fe40949902ebc2fd2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09151dba0314f94641e32452a90edf9') in 0.010245 seconds
+  Import took 0.012544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134600 seconds.
+  path: Assets/simple modular human/prefabs/test terrain prefabs/bench_prefab.prefab
+  artifactKey: Guid(7728c91b439a73041b6564c3b5559436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/test terrain prefabs/bench_prefab.prefab using Guid(7728c91b439a73041b6564c3b5559436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc3286e915d4acb5f7f3875bf4dad19') in 0.071527 seconds
+  Import took 0.073804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/simple modular human/prefabs/test terrain prefabs/walk_point_prefab.prefab
+  artifactKey: Guid(ab4e5e35fadb1794cbb9baf266a11502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/test terrain prefabs/walk_point_prefab.prefab using Guid(ab4e5e35fadb1794cbb9baf266a11502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef4e96016a3738e1479173fbbb7f1bf') in 0.022059 seconds
+  Import took 0.024626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/simple modular human/prefabs/test terrain prefabs/chair_prefab.prefab
+  artifactKey: Guid(ef95c096416c21c41b9b7f61ac477f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/test terrain prefabs/chair_prefab.prefab using Guid(ef95c096416c21c41b9b7f61ac477f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54fc0f8adb1c719bb2383b9bb0eee7e') in 0.023555 seconds
+  Import took 0.025785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/simple modular human/prefabs/test terrain prefabs/Bin_prefab.prefab
+  artifactKey: Guid(7c34568af8a50db4ca252915e6261c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/test terrain prefabs/Bin_prefab.prefab using Guid(7c34568af8a50db4ca252915e6261c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75aa64e04724b996652a537ab06b1f') in 0.023108 seconds
+  Import took 0.025149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/simple modular human/prefabs/test terrain prefabs/pickup_point_prefab.prefab
+  artifactKey: Guid(59e8f7125db401f4dafecba8fd41ed4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/test terrain prefabs/pickup_point_prefab.prefab using Guid(59e8f7125db401f4dafecba8fd41ed4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3130b40df1f46bbf271bc99260692a') in 0.019662 seconds
+  Import took 0.022399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/simple modular human/prefabs/test terrain prefabs/sweet_machine Prefab.prefab
+  artifactKey: Guid(77ae4e2162341c546b7d4f24a20678eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/test terrain prefabs/sweet_machine Prefab.prefab using Guid(77ae4e2162341c546b7d4f24a20678eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3a452ae55f6791170567b831f0863d') in 0.026840 seconds
+  Import took 0.031457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/simple modular human/prefabs/test terrain prefabs/table_prefab.prefab
+  artifactKey: Guid(29e082c527356154e98a5737506dfb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/test terrain prefabs/table_prefab.prefab using Guid(29e082c527356154e98a5737506dfb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179b90a19ccc91a49d3ff1e547995135') in 0.021785 seconds
+  Import took 0.024126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/simple modular human/prefabs/test terrain prefabs/Custom simple human_prefab_test.prefab
+  artifactKey: Guid(066b9035b24027d409065149bf09ed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/test terrain prefabs/Custom simple human_prefab_test.prefab using Guid(066b9035b24027d409065149bf09ed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a126cbe213694fb5ea1c3badbdbca3c') in 0.136888 seconds
+  Import took 0.144063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/simple modular human/prefabs/test terrain prefabs/tree_prefab.prefab
+  artifactKey: Guid(4a966cc02d8870542b1932c3919c73dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/test terrain prefabs/tree_prefab.prefab using Guid(4a966cc02d8870542b1932c3919c73dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a7fc783e20ad72d9a894bcc08a9592') in 0.020879 seconds
+  Import took 0.024201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/simple modular human/prefabs/test terrain prefabs/stealing_point_prefab.prefab
+  artifactKey: Guid(b62de7d8fd32b974c9632ce21cd5bbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/test terrain prefabs/stealing_point_prefab.prefab using Guid(b62de7d8fd32b974c9632ce21cd5bbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dec709b91478123fc0ee2c4c1877c1a') in 0.021859 seconds
+  Import took 0.024192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001802 seconds.
+  path: Assets/simple modular human/prefabs/test terrain prefabs/stealing_point_prefab.prefab
+  artifactKey: Guid(b62de7d8fd32b974c9632ce21cd5bbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/prefabs/test terrain prefabs/stealing_point_prefab.prefab using Guid(b62de7d8fd32b974c9632ce21cd5bbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dec709b91478123fc0ee2c4c1877c1a') in 0.011869 seconds
+  Import took 0.014017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.735740 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f2a2471e7245fbc0aa931fa5cf45b7') in 0.010216 seconds
+  Import took 0.012613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.859097 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f70709dc8d800fc43affc25ba9902259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f70709dc8d800fc43affc25ba9902259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ef63639f37551433d209a8de080619') in 0.008737 seconds
+  Import took 0.010547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.448366 seconds.
+  path: Assets/Scripts/HumanTestScript.cs
+  artifactKey: Guid(045b1a63886992e4da6bd32e701e6cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HumanTestScript.cs using Guid(045b1a63886992e4da6bd32e701e6cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b253762999950038ff7d7bbb7b9a6e') in 0.026970 seconds
+  Import took 0.030222 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000609 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.798 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1608.
+Total: 1.675400 ms (FindLiveObjects: 0.137300 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.415000 ms  DeleteObjects: 0.089100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.439562 seconds.
+  path: Assets/Scripts/HumanTestScript.cs
+  artifactKey: Guid(045b1a63886992e4da6bd32e701e6cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HumanTestScript.cs using Guid(045b1a63886992e4da6bd32e701e6cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4357bf1f5d2f6495c104923e5dba1fc3') in 0.009713 seconds
+  Import took 0.013250 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000802 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.822 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1610.
+Total: 1.757800 ms (FindLiveObjects: 0.176100 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.432600 ms  DeleteObjects: 0.112000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000658 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.797 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1612.
+Total: 2.133400 ms (FindLiveObjects: 0.328300 ms CreateObjectMapping: 0.129400 ms MarkObjects: 1.593600 ms  DeleteObjects: 0.080800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000804 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1614.
+Total: 1.719800 ms (FindLiveObjects: 0.176900 ms CreateObjectMapping: 0.077800 ms MarkObjects: 1.375100 ms  DeleteObjects: 0.088300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000627 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1616.
+Total: 1.606800 ms (FindLiveObjects: 0.183300 ms CreateObjectMapping: 0.049300 ms MarkObjects: 1.300200 ms  DeleteObjects: 0.073000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000678 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1618.
+Total: 1.567500 ms (FindLiveObjects: 0.166400 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.281800 ms  DeleteObjects: 0.081800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000729 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1620.
+Total: 1.720500 ms (FindLiveObjects: 0.151900 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.441300 ms  DeleteObjects: 0.077200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004044 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1622.
+Total: 2.168800 ms (FindLiveObjects: 0.162200 ms CreateObjectMapping: 0.043300 ms MarkObjects: 1.892800 ms  DeleteObjects: 0.068300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.764 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1624.
+Total: 1.625500 ms (FindLiveObjects: 0.138600 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.369600 ms  DeleteObjects: 0.083700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000711 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.769 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1626.
+Total: 4.714800 ms (FindLiveObjects: 1.375200 ms CreateObjectMapping: 0.061400 ms MarkObjects: 3.184600 ms  DeleteObjects: 0.089600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.743 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1628.
+Total: 1.966000 ms (FindLiveObjects: 0.241600 ms CreateObjectMapping: 0.075300 ms MarkObjects: 1.560300 ms  DeleteObjects: 0.087400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11432.590518 seconds.
+  path: Assets/simple modular human/scene/Nav_mesh
+  artifactKey: Guid(5e3695838fe2c44429ea6cd24a0f5c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/scene/Nav_mesh using Guid(5e3695838fe2c44429ea6cd24a0f5c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7d2ef3f5acea5f44dbae5607734d5c') in 0.011705 seconds
+  Import took 0.013672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113458 seconds.
+  path: Assets/simple modular human/scene/Nav_mesh/NavMesh.asset
+  artifactKey: Guid(8e888106809f8214d8e57e6544a53f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/simple modular human/scene/Nav_mesh/NavMesh.asset using Guid(8e888106809f8214d8e57e6544a53f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8774c9bb00f0b4ed8f11183c0a005d') in 0.016213 seconds
+  Import took 0.018119 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000714 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1630.
+Total: 1.593900 ms (FindLiveObjects: 0.125600 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.355200 ms  DeleteObjects: 0.079500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000732 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.083 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1632.
+Total: 2.145400 ms (FindLiveObjects: 0.139600 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.919100 ms  DeleteObjects: 0.048800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000833 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.801 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1634.
+Total: 1.771900 ms (FindLiveObjects: 0.173800 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.480500 ms  DeleteObjects: 0.079800 ms)
+
