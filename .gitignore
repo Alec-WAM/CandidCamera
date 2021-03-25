@@ -1,9 +1,13 @@
 [Ll]ibrary/
+[Ll]ogs/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+
+# IDEA Rider directory
+.idea/
 
 # Visual Studio cache directory
 .vs/

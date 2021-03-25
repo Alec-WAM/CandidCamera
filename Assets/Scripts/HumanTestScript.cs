@@ -7,8 +7,7 @@ public class HumanTestScript : MonoBehaviour
     public Animator animator;
     public GameObject aim_point;
     public int stealSeconds = 5;
-
-
+    
     UnityEngine.AI.NavMeshAgent agent;
     // Start is called before the first frame update
     void Start()
