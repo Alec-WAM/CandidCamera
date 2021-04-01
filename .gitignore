@@ -39,3 +39,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Lock the packages file to avoid cross-platform issues
+Packages/*
