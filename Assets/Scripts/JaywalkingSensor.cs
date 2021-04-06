@@ -25,13 +25,24 @@ public class JaywalkingSensor : MonoBehaviour
 
     }
 
-    void OnCollisionStay(Collision collisionInfo)
+    void OnTriggerStay(Collider other)
     {
-        if(collisionInfo.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player")
         {
             if(block1Agent != null)
             {
                 block1Agent.triggerJaywalking();
+            }
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            if (block1Agent != null)
+            {
+                block1Agent.stopJaywalking();
             }
         }
     }

@@ -1644,6 +1644,7 @@ GameObject:
   - component: {fileID: 685037587}
   - component: {fileID: 685037588}
   - component: {fileID: 685037589}
+  - component: {fileID: 685037590}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1659,7 +1660,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685037586}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -12.434, y: 0.2, z: 4.33}
+  m_LocalPosition: {x: -12.434, y: 0.1, z: 4.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1923818882}
@@ -1697,8 +1698,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterController: {fileID: 685037588}
+  animator: {fileID: 1197987761}
   speed: 2
   rotationSpeed: 90
+--- !u!136 &685037590
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685037586}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,6 +2401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 972409388}
   - component: {fileID: 972409389}
+  - component: {fileID: 972409390}
   m_Layer: 0
   m_Name: JaywalkingArea
   m_TagString: Untagged
@@ -2401,7 +2418,7 @@ Transform:
   m_GameObject: {fileID: 972409387}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.5, y: 0.1, z: 0}
-  m_LocalScale: {x: 22, y: 0.1, z: 6}
+  m_LocalScale: {x: 22, y: 0.5, z: 6}
   m_Children: []
   m_Father: {fileID: 255738511}
   m_RootOrder: 9
@@ -2415,11 +2432,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 972409387}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fd3cc1424ed3724f8213279d617b269, type: 3}
+  m_Script: {fileID: 11500000, guid: 36d9bb398166f2a4387c1bacedee661b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   block1Agent: {fileID: 963194231}
   GizmosColor: {r: 1, g: 0, b: 0, a: 0.30588236}
+--- !u!65 &972409390
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972409387}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1002237085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2765,6 +2795,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 590739196080611428, guid: 77ae4e2162341c546b7d4f24a20678eb, type: 3}
   m_PrefabInstance: {fileID: 2085556553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1197987761 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2952597783961106557, guid: d6112008cba14c147b799fa5f0944f3d, type: 3}
+  m_PrefabInstance: {fileID: 1923818881}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1254151289
 PrefabInstance:
