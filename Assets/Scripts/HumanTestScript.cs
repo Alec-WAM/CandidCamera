@@ -9,6 +9,9 @@ public class HumanTestScript : MonoBehaviour
     public int stealSeconds = 5;
     
     UnityEngine.AI.NavMeshAgent agent;
+    
+    public bool AtAimPoint => Vector3.Distance(transform.position, aim_point.transform.position) < 0.25f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,25 +24,23 @@ public class HumanTestScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (aim_point != null)
+        if (aim_point == null)
+            return;
+
+        if (!AtAimPoint)
         {
 
-            if (Vector3.Distance(transform.position, aim_point.transform.position) > 0.25f)
-            {
+            agent.speed = 2.0f;
+            agent.SetDestination(aim_point.transform.position);
+            animator.SetInteger("arms", 1);
+            animator.SetInteger("legs", 1);
+        }
+        else
+        {
+            agent.speed = 0;
 
-                agent.speed = 2.0f;
-                agent.SetDestination(aim_point.transform.position);
-                animator.SetInteger("arms", 1);
-                animator.SetInteger("legs", 1);
-            }
-
-            if (Vector3.Distance(transform.position, aim_point.transform.position) < 0.25f)
-            {
-                agent.speed = 0;
-
-                animator.SetInteger("arms", 5);
-                animator.SetInteger("legs", 5);
-            }
+            animator.SetInteger("arms", 5);
+            animator.SetInteger("legs", 5);
         }
 
         if (Input.GetKeyDown(KeyCode.H))
@@ -64,10 +65,7 @@ public class HumanTestScript : MonoBehaviour
     {
         yield return new WaitForSeconds(0);
 
-
-
         animator.SetInteger("arms", 16); //Hello
-
 
         yield return new WaitForSeconds(3);
 
@@ -80,10 +78,8 @@ public class HumanTestScript : MonoBehaviour
     {
         yield return new WaitForSeconds(0);
 
-
         animator.SetInteger("legs", 5);
         animator.SetInteger("arms", 22); //Steal
-
 
         yield return new WaitForSeconds(stealSeconds);
 
@@ -101,12 +97,10 @@ public class HumanTestScript : MonoBehaviour
         animator.SetInteger("legs", 1);
         animator.SetInteger("arms", 8); //looking
 
-
         yield return new WaitForSeconds(3);
 
         animator.SetInteger("legs", 1);
         animator.SetInteger("arms", 1); //Walk
         StopCoroutine(waving_start);
     }
-
 }
