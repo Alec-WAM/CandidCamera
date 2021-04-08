@@ -1687,6 +1687,7 @@ GameObject:
   - component: {fileID: 685037588}
   - component: {fileID: 685037589}
   - component: {fileID: 685037590}
+  - component: {fileID: 685037591}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1734,7 +1735,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685037586}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b3403d7cb285b1408e23b4bb63fdce9, type: 3}
   m_Name: 
@@ -1757,6 +1758,28 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &685037591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685037586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3534bb3be665e6a488d1f2c87fea99a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1197987761}
+  characterController: {fileID: 685037588}
+  moveSpeed: 2
+  aim_points:
+  - {fileID: 1526441048}
+  - {fileID: 1996864787}
+  - {fileID: 896304707}
+  - {fileID: 787838287}
+  aim_point: {fileID: 896304707}
+  aimDistance: 0.45
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2431,6 +2454,7 @@ GameObject:
   - component: {fileID: 963194229}
   - component: {fileID: 963194231}
   - component: {fileID: 963194232}
+  - component: {fileID: 963194233}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2582,6 +2606,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 5
   TakeActionsBetweenDecisions: 1
+--- !u!114 &963194233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b6042bc9a5d4aa58d931eae49442e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
 --- !u!1 &972409387
 GameObject:
   m_ObjectHideFlags: 0
