@@ -52,13 +52,13 @@ public class VisualCameraAgentBlock1 : Agent
                 AddReward(1.0F);
                 Debug.Log("Caught");
                 hits++;
-                EndEpisode();
             }
             else
             {
-                AddReward(-1.0F);
+                AddReward(-0.05F);
                 Debug.Log("Miss");
             }
+            EndEpisode();
         }
     }
 
