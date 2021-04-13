@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// this script sets the trigger when a player steps on a 
+// jaywalking area
+
 public class JaywalkingSensor : MonoBehaviour
 {
     public VisualCameraAgentBlock1 block1Agent;
