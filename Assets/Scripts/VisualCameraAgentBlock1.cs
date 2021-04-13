@@ -49,16 +49,17 @@ public class VisualCameraAgentBlock1 : Agent
             guesses++;
             if (isJaywalking)
             {
-                AddReward(1.0F);
+                SetReward(1.0F);
                 Debug.Log("Caught");
                 hits++;
+                EndEpisode();
             }
             else
             {
-                AddReward(-0.05F);
+                AddReward(-0.001F);
                 Debug.Log("Miss");
             }
-            EndEpisode();
+            //EndEpisode();
         }
     }
 
