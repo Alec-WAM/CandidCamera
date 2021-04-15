@@ -42,6 +42,6 @@ sysinfo.txt
 
 # Lock the packages file to avoid cross-platform issues
 Packages/*
-Assets/ML-Agents.meta
-Assets/ML-Agents/
 UserSettings/EditorUserSettings.asset
+Assets/ML-Agents/
+Assets/ML-Agents.meta
