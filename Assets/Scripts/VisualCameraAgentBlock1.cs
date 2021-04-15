@@ -14,6 +14,8 @@ public class VisualCameraAgentBlock1 : Agent
 {
     private bool isJaywalking;
 
+    public PlayerDetectionHandler detectionHandler;
+
     public Text debugInfo;
     public int guesses;
     public int hits;
@@ -39,6 +41,14 @@ public class VisualCameraAgentBlock1 : Agent
         
     }
 
+    public void detectPlayer(bool detected)
+    {
+        if(detectionHandler != null)
+        {
+            detectionHandler.triggerDetection(detected);
+        }   
+    }
+
     public override void OnActionReceived(ActionBuffers actions)
     {
         var discreteActions = actions.DiscreteActions;
@@ -46,6 +56,7 @@ public class VisualCameraAgentBlock1 : Agent
         bool jWalkGuess = (int)discreteActions[0] > 0;
         Debug.Log("Guessing " + discreteActions[0]);
 
+        
         if (jWalkGuess)
         {
             guesses++;
@@ -54,11 +65,13 @@ public class VisualCameraAgentBlock1 : Agent
                 SetReward(1.0F);
                 Debug.Log("Caught");
                 hits++;
+                detectPlayer(true); //Based on time of decisions 
                 EndEpisode();
             }
             else
             {
                 AddReward(-0.001F);
+                detectPlayer(false); //Based on time of decisions 
                 Debug.Log("Miss");
             }
             //EndEpisode();
