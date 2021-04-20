@@ -35,6 +35,7 @@ public class JaywalkingSensor : MonoBehaviour
             if(block1Agent != null)
             {
                 block1Agent.triggerJaywalking();
+                print("ahoy");
             }
         }
     }
