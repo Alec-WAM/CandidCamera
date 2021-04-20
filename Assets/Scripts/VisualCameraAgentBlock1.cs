@@ -19,6 +19,7 @@ public class VisualCameraAgentBlock1 : Agent
     public Text debugInfo;
     public int guesses;
     public int hits;
+    public bool jWalkGuessing;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +32,9 @@ public class VisualCameraAgentBlock1 : Agent
         if (guesses > 0)
         {
             float hitRate = (float)hits / (float)guesses;
-            string text = "Accuracy: " + hitRate;
+            string text = "Accuracy: " + hitRate + " " + "Guessing: " + jWalkGuessing;
+
+
             debugInfo.text = text;
         }
     }
@@ -53,11 +56,11 @@ public class VisualCameraAgentBlock1 : Agent
     {
         var discreteActions = actions.DiscreteActions;
 
-        bool jWalkGuess = (int)discreteActions[0] > 0;
+        jWalkGuessing = (int)discreteActions[0] > 0;
         Debug.Log("Guessing " + discreteActions[0]);
 
         
-        if (jWalkGuess)
+        if (jWalkGuessing)
         {
             guesses++;
             if (isJaywalking)
@@ -70,7 +73,8 @@ public class VisualCameraAgentBlock1 : Agent
             }
             else
             {
-                AddReward(-0.001F);
+                //AddReward(-0.001F);
+                AddReward(-0.1F);
                 detectPlayer(false); //Based on time of decisions 
                 Debug.Log("Miss");
             }

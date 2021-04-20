@@ -10,6 +10,7 @@ public class PlayerDetectionHandler : MonoBehaviour
     public bool detected = false;
 
     public Text counterText;
+    public Slider timerSlider;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +39,10 @@ public class PlayerDetectionHandler : MonoBehaviour
             }
         }
         if (counterText != null) counterText.text = "Counter: " + timer;
+        if(timerSlider != null)
+        {
+            timerSlider.value = (maxTime-timer) / maxTime;
+        }
     }
 
     public void triggerDetection(bool value)
