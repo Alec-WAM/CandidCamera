@@ -1,45 +1,85 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneHandler : MonoBehaviour
 {
-    public GameObject Target;
+    public GameObject PlayerPrefab;
+    public string[] SceneNames;
+    private GameObject player;
+    private GameObject target;
+    private int sceneIndex;
+    private bool transitioning;
+    private IEnumerator transitionEnum;
 
-    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
-    static void OnBeforeSceneLoadRuntimeMethod()
+    public SceneHandler(string[] sceneNames)
     {
-        Debug.Log("Before scene loaded");
+        SceneNames = sceneNames;
     }
 
-    void Update()
+    private void Start()
     {
-        if (Target == null || !Target.scene.IsValid())
+        // Initialize coroutine call ahead of time to avoid performance cost of initializing in FixedUpdate
+        transitionEnum = TransitionToNewScene(trans => transitioning = trans);
+    }
+
+    private void FixedUpdate()
+    {
+        if (target == null || player == null || !target.scene.IsValid() ||!player.scene.IsValid())
             return;
         
         // The target's scene is loaded and active
-        var script = Target.gameObject.GetComponent<HumanTestScript>();
-        if (script == null || !script.AtAimPoint)
+        if (Vector3.Distance(player.transform.position, target.transform.position) > 0.4f)
             return;
         
+        if (transitioning) return;
+        
         // Target is at aim point in scene, transition to the next scene
-        StartCoroutine(LoadSceneAsync(SceneManager.GetActiveScene().name, "StraightBlock"));
+        StartCoroutine(transitionEnum);
     }
 
-    IEnumerator LoadSceneAsync(string fromName, string toName)
+    private void Awake()
     {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(toName);
-        // Wait until scene fully loads
-        while (!asyncLoad.isDone)
-        {
-            yield return null;
-        }
+        // Instantiate player
+        player = Instantiate(PlayerPrefab);
+        player.transform.position = GameObject.FindWithTag("SpawnPoint").transform.position;
+        target = GameObject.FindWithTag("TargetPoint");
         
-        AsyncOperation asyncUnload = SceneManager.UnloadSceneAsync(fromName);
+        DontDestroyOnLoad(gameObject);
+    }
+
+    private IEnumerator TransitionToNewScene(Action<bool> callback)
+    {
+        // Indicate transitioning via callback
+        callback(true);
         
-        while (!asyncUnload.isDone)
+        if (sceneIndex + 1 == SceneNames.Length)
         {
-            yield return null;
+            // At end of
+            Debug.LogWarning("No further scenes!");
+            yield break;
         }
+
+        var curName = SceneManager.GetActiveScene().name;
+        var newName = SceneNames[sceneIndex + 1];
+        
+        var loadAsync = SceneManager.LoadSceneAsync(newName);
+        while (!loadAsync.isDone)
+        {
+            Debug.Log($"Waiting for scene '{newName}' to replace '{curName}'");
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        // Increment after scene
+        sceneIndex++;
+        
+        // Instantiate player
+        player = Instantiate(PlayerPrefab);
+        player.transform.position = GameObject.FindWithTag("SpawnPoint").transform.position;
+        target = GameObject.FindWithTag("TargetPoint");
+        
+        // Done transitioning to new scene
+        callback(false);
     }
 }
