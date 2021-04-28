@@ -2,9 +2,11 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SceneHandler : MonoBehaviour
 {
+    public GameObject BlackoutSquare;
     public GameObject PlayerPrefab;
     public string[] SceneNames;
     private GameObject player;
@@ -45,6 +47,20 @@ public class SceneHandler : MonoBehaviour
 
     private IEnumerator TransitionToNewScene(Action<bool> callback)
     {
+        // Start fadeout
+        Color objColor = BlackoutSquare.GetComponent<Image>().color;
+        float fadeAmount;
+        float fadeSpeed = 5.0f;
+        
+        while (BlackoutSquare.GetComponent<Image>().color.a < 1)
+        {
+            fadeAmount = objColor.a + (fadeSpeed * Time.deltaTime);
+
+            objColor = new Color(objColor.r, objColor.g, objColor.b, fadeAmount);
+            BlackoutSquare.GetComponent<Image>().color = objColor;
+            yield return null;
+        }
+
         if (sceneIndex + 1 == SceneNames.Length)
         {
             // At end of
@@ -55,6 +71,11 @@ public class SceneHandler : MonoBehaviour
         var curName = SceneManager.GetActiveScene().name;
         var newName = SceneNames[sceneIndex + 1];
         
+        // Destroy original player & spawn/target points
+        Destroy(GameObject.FindWithTag("Player"));
+        Destroy(GameObject.FindWithTag("SpawnPoint"));
+        Destroy(GameObject.FindWithTag("TargetPoint"));
+        
         var loadAsync = SceneManager.LoadSceneAsync(newName);
         while (!loadAsync.isDone)
         {
@@ -64,14 +85,23 @@ public class SceneHandler : MonoBehaviour
 
         // Increment after scene
         sceneIndex++;
-        
-        // Remove current instance of player
-        Destroy(GameObject.FindWithTag("Player"));
-        
+
+        // Retrieve BlackOutSquare for new scene
+        BlackoutSquare = GameObject.FindWithTag("BlackOut");
+
         // Instantiate player
         player = Instantiate(PlayerPrefab);
         player.transform.position = GameObject.FindWithTag("SpawnPoint").transform.position;
         target = GameObject.FindWithTag("TargetPoint");
+        
+        while (BlackoutSquare.GetComponent<Image>().color.a > 0)
+        {
+            fadeAmount = objColor.a - (fadeSpeed * Time.deltaTime);
+
+            objColor = new Color(objColor.r, objColor.g, objColor.b, fadeAmount);
+            BlackoutSquare.GetComponent<Image>().color = objColor;
+            yield return null;
+        }
         
         // Done transitioning to new scene
         callback(false);
