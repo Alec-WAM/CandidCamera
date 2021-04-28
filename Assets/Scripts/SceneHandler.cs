@@ -18,13 +18,7 @@ public class SceneHandler : MonoBehaviour
         SceneNames = sceneNames;
     }
 
-    private void Start()
-    {
-        // Initialize coroutine call ahead of time to avoid performance cost of initializing in FixedUpdate
-        transitionEnum = TransitionToNewScene(trans => transitioning = trans);
-    }
-
-    private void FixedUpdate()
+    private void Update()
     {
         if (target == null || player == null || !target.scene.IsValid() ||!player.scene.IsValid())
             return;
@@ -36,7 +30,7 @@ public class SceneHandler : MonoBehaviour
         if (transitioning) return;
         
         // Target is at aim point in scene, transition to the next scene
-        StartCoroutine(transitionEnum);
+        StartCoroutine(TransitionToNewScene(trans => transitioning = trans));
     }
 
     private void Awake()
