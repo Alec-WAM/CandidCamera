@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - waypoint
+  - stealingpoint
+  - sittingpoint
+  - SpawnPoint
+  - TargetPoint
+  - BlackOut
   layers:
   - Default
   - TransparentFX
