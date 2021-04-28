@@ -10,7 +10,7 @@ using Unity.MLAgents.Sensors;
 
 // the training for the camera, simply guesses if there's something wrong in the scene
 
-public class VisualCameraAgentBlock1 : Agent
+public class VisualCameraAgentBlock2 : Agent
 {
     private bool isJaywalking;
 
