@@ -11,7 +11,6 @@ public class SceneHandler : MonoBehaviour
     private GameObject target;
     private int sceneIndex;
     private bool transitioning;
-    private IEnumerator transitionEnum;
 
     public SceneHandler(string[] sceneNames)
     {
@@ -22,7 +21,7 @@ public class SceneHandler : MonoBehaviour
     {
         if (target == null || player == null || !target.scene.IsValid() ||!player.scene.IsValid())
             return;
-        
+
         // The target's scene is loaded and active
         if (Vector3.Distance(player.transform.position, target.transform.position) > 0.4f)
             return;
@@ -30,6 +29,7 @@ public class SceneHandler : MonoBehaviour
         if (transitioning) return;
         
         // Target is at aim point in scene, transition to the next scene
+        transitioning = true;
         StartCoroutine(TransitionToNewScene(trans => transitioning = trans));
     }
 
@@ -45,9 +45,6 @@ public class SceneHandler : MonoBehaviour
 
     private IEnumerator TransitionToNewScene(Action<bool> callback)
     {
-        // Indicate transitioning via callback
-        callback(true);
-        
         if (sceneIndex + 1 == SceneNames.Length)
         {
             // At end of
@@ -67,6 +64,9 @@ public class SceneHandler : MonoBehaviour
 
         // Increment after scene
         sceneIndex++;
+        
+        // Remove current instance of player
+        Destroy(GameObject.FindWithTag("Player"));
         
         // Instantiate player
         player = Instantiate(PlayerPrefab);
