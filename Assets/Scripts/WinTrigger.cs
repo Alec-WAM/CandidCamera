@@ -1,74 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerDetectionHandler : MonoBehaviour
+public class WinTrigger : MonoBehaviour
 {
-    public float timer;
-    public float maxTime = 10.0f;
-    public bool detected = false;
 
-    public Text counterText;
-    public Slider timerSlider;
     public GameObject BlackoutSquare;
-    public Text failText;
-
+    public Text winText;
     // Start is called before the first frame update
     void Start()
     {
-        failText.enabled = false;
-        timer = maxTime;
+        winText.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (detected)
-        {
-            if(timer > 0)
-            {
-                timer -= Time.deltaTime;
-                if(timer <= 0.0F)
-                {
-                    punishPlayer();
-                }
-            } 
-        }
-        else
-        {
-            if (timer < maxTime)
-            {
-                timer += Time.deltaTime;
-            }
-        }
-        if (counterText != null) counterText.text = "Counter: " + timer;
-        if(timerSlider != null)
-        {
-            timerSlider.value = (maxTime-timer) / maxTime;
-        }
+
     }
 
-    public void triggerDetection(bool value)
+    void OnTriggerEnter(Collider other)
     {
-        detected = value;
+        if (other.gameObject.tag == "Player")
+        {
+           StartCoroutine(WinScreen());
+        }
     }
 
-    public void punishPlayer()
-    {
-        //Game Over Scene
-        StartCoroutine(FailScreen());
-    }
-
-    private IEnumerator FailScreen()
+    private IEnumerator WinScreen()
     {
         // Start fadeout
         Color objColor = BlackoutSquare.GetComponent<Image>().color;
         float fadeAmount;
         float fadeSpeed = 0.3f;
 
-        failText.enabled = true;
+        winText.enabled = true;
 
         while (BlackoutSquare.GetComponent<Image>().color.a < 1)
         {
@@ -80,7 +48,7 @@ public class PlayerDetectionHandler : MonoBehaviour
         }
 
         var sceneHandler = GameObject.FindObjectsOfType<SceneHandler>()[0];
-        Debug.Log("Destroy SceneHandler " + (sceneHandler !=null));
+        Debug.Log("Destroy SceneHandler " + (sceneHandler != null));
         Destroy(sceneHandler.gameObject);
 
         var loadAsync = SceneManager.LoadSceneAsync("StraightBlock");
@@ -97,6 +65,6 @@ public class PlayerDetectionHandler : MonoBehaviour
             BlackoutSquare.GetComponent<Image>().color = objColor;
             yield return null;
         }
-        failText.enabled = false;
+        winText.enabled = false;
     }
 }

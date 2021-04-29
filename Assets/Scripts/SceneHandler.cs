@@ -42,13 +42,16 @@ public class SceneHandler : MonoBehaviour
         StartCoroutine(TransitionToNewScene(trans => transitioning = trans));
     }
 
+
+
     private void Awake()
     {
         // Instantiate player
-        player = Instantiate(PlayerPrefab);
-        player.transform.position = GameObject.FindWithTag("SpawnPoint").transform.position;
-        //target = GameObject.FindWithTag("TargetPoint");
-        
+        Transform t = GameObject.FindWithTag("SpawnPoint").transform;
+        Vector3 vec = t.position;
+        player = Instantiate(PlayerPrefab, new Vector3(vec.x, vec.y, vec.z), t.rotation);
+        Debug.Log("Vec: " + vec);
+
         DontDestroyOnLoad(gameObject);
     }
 
@@ -97,10 +100,12 @@ public class SceneHandler : MonoBehaviour
         BlackoutSquare = GameObject.FindWithTag("BlackOut");
 
         // Instantiate player
-        player = Instantiate(PlayerPrefab);
-        player.transform.position = GameObject.FindWithTag("SpawnPoint").transform.position;
+        Transform t = GameObject.FindWithTag("SpawnPoint").transform;
+        Vector3 vec = t.position;
+        player = Instantiate(PlayerPrefab, new Vector3(vec.x, vec.y, vec.z), t.rotation);
+        Debug.Log("Vec: " + vec + " / " + player.transform.position);
         //target = GameObject.FindWithTag("TargetPoint");
-        
+
         while (BlackoutSquare.GetComponent<Image>().color.a > 0)
         {
             fadeAmount = objColor.a - (fadeSpeed * Time.deltaTime);
