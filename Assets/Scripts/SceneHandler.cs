@@ -25,7 +25,7 @@ public class SceneHandler : MonoBehaviour
             return;
 
         // The target's scene is loaded and active
-        if (Vector3.Distance(player.transform.position, target.transform.position) > 0.4f)
+        if (Vector3.Distance(player.transform.position, target.transform.position) > 0.5f)
             return;
         
         if (transitioning) return;
@@ -70,19 +70,19 @@ public class SceneHandler : MonoBehaviour
 
         var curName = SceneManager.GetActiveScene().name;
         var newName = SceneNames[sceneIndex + 1];
-        
+
         // Destroy original player & spawn/target points
         Destroy(GameObject.FindWithTag("Player"));
         Destroy(GameObject.FindWithTag("SpawnPoint"));
         Destroy(GameObject.FindWithTag("TargetPoint"));
-        
+
         var loadAsync = SceneManager.LoadSceneAsync(newName);
         while (!loadAsync.isDone)
         {
             Debug.Log($"Waiting for scene '{newName}' to replace '{curName}'");
             yield return new WaitForSeconds(0.1f);
         }
-
+        Debug.Log($"Scene '{newName}' replaced '{SceneManager.GetActiveScene().name}'");
         // Increment after scene
         sceneIndex++;
 

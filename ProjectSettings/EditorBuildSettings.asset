@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StraightBlock.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Corner_1.unity
+    guid: da779dfb7649d144c8b3d0e16cebbcec
+  - enabled: 1
+    path: Assets/Scenes/StraightBlock2.unity
+    guid: 31011d870977acf4197254b3184c26b3
   m_configObjects: {}
