@@ -1140,7 +1140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &192605222
 Transform:
   m_ObjectHideFlags: 0
@@ -1708,10 +1708,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Camera: {fileID: 319672608}
   m_SensorName: CameraSensor-Block1
-  m_Width: 100
-  m_Height: 60
+  m_Width: 80
+  m_Height: 50
   m_Grayscale: 0
-  m_ObservationStacks: 4
+  m_ObservationStacks: 1
   m_Compression: 1
 --- !u!114 &319672607
 MonoBehaviour:
@@ -1735,7 +1735,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 7b0e729ae7679f5408cfe7ad453ac6d8, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: 7aa27818e139004488bafcf3409b7485, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: VisualBlock1
@@ -3683,7 +3683,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621896483}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b1cb51b645a844349adf26d6414411f7, type: 3}
   m_Name: 
@@ -3740,7 +3740,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621896483}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b3403d7cb285b1408e23b4bb63fdce9, type: 3}
   m_Name: 
@@ -4926,7 +4926,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &883024111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5496,7 +5496,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

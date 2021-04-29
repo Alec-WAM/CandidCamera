@@ -60,7 +60,7 @@ public class VisualCameraAgentBlock1 : Agent
         Debug.Log("Guessing " + discreteActions[0]);
         
         guesses++;
-        if (isJaywalking & jWalkGuessing)
+        if (isJaywalking && jWalkGuessing)
         {
             AddReward(.1F);
             Debug.Log("Caught");
@@ -68,9 +68,9 @@ public class VisualCameraAgentBlock1 : Agent
             detectPlayer(isJaywalking); //Based on time of decisions 
                                         //EndEpisode();
         }
-        else if(!isJaywalking & !jWalkGuessing)
+        else if(!isJaywalking && !jWalkGuessing)
         {
-            AddReward(.01F);
+            AddReward(.1F);
             Debug.Log("Caught");
             hits++;
             detectPlayer(isJaywalking); //Based on time of decisions
@@ -78,7 +78,7 @@ public class VisualCameraAgentBlock1 : Agent
         else
         {
         //AddReward(-0.001F);
-            SetReward(-1f);
+            AddReward(-1f);
             detectPlayer(false); //Based on time of decisions 
             Debug.Log("Miss");
             EndEpisode();
