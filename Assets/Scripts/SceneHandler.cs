@@ -28,8 +28,15 @@ public class SceneHandler : MonoBehaviour
         if (Vector3.Distance(player.transform.position, target.transform.position) > 0.5f)
             return;
         
-        if (transitioning) return;
         
+    }
+
+    public void nextScene()
+    {
+        if (player == null || !player.scene.IsValid())
+            return;
+        if (transitioning) return;
+
         // Target is at aim point in scene, transition to the next scene
         transitioning = true;
         StartCoroutine(TransitionToNewScene(trans => transitioning = trans));
@@ -40,7 +47,7 @@ public class SceneHandler : MonoBehaviour
         // Instantiate player
         player = Instantiate(PlayerPrefab);
         player.transform.position = GameObject.FindWithTag("SpawnPoint").transform.position;
-        target = GameObject.FindWithTag("TargetPoint");
+        //target = GameObject.FindWithTag("TargetPoint");
         
         DontDestroyOnLoad(gameObject);
     }
@@ -74,7 +81,7 @@ public class SceneHandler : MonoBehaviour
         // Destroy original player & spawn/target points
         Destroy(GameObject.FindWithTag("Player"));
         Destroy(GameObject.FindWithTag("SpawnPoint"));
-        Destroy(GameObject.FindWithTag("TargetPoint"));
+        //Destroy(GameObject.FindWithTag("TargetPoint"));
 
         var loadAsync = SceneManager.LoadSceneAsync(newName);
         while (!loadAsync.isDone)
@@ -92,7 +99,7 @@ public class SceneHandler : MonoBehaviour
         // Instantiate player
         player = Instantiate(PlayerPrefab);
         player.transform.position = GameObject.FindWithTag("SpawnPoint").transform.position;
-        target = GameObject.FindWithTag("TargetPoint");
+        //target = GameObject.FindWithTag("TargetPoint");
         
         while (BlackoutSquare.GetComponent<Image>().color.a > 0)
         {
