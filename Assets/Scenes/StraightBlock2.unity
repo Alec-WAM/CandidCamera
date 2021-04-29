@@ -773,6 +773,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnPoint
       objectReference: {fileID: 0}
+    - target: {fileID: 4816613137805593600, guid: 1fd3ac3c804d2dd6380e10956b8565df, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6609437077185724124, guid: 1fd3ac3c804d2dd6380e10956b8565df, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7674326493041665102, guid: 1fd3ac3c804d2dd6380e10956b8565df, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2875,6 +2883,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: walk_point_prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 4946883121597583541, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6757554331603542633, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7853847380172273915, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2941,6 +2957,14 @@ PrefabInstance:
     - target: {fileID: 4946883121597583541, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
       propertyPath: m_Name
       value: walk_point_prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4946883121597583541, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6757554331603542633, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7853847380172273915, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
       propertyPath: m_RootOrder
@@ -3950,15 +3974,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1428112157}
-  - component: {fileID: 1428112159}
   - component: {fileID: 1428112158}
+  - component: {fileID: 1428112159}
   m_Layer: 0
   m_Name: Man
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1428112157
 Transform:
   m_ObjectHideFlags: 0
@@ -4005,12 +4029,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1428112156}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 045b1a63886992e4da6bd32e701e6cc8, type: 3}
+  m_Script: {fileID: 11500000, guid: 3689522958efbaa4586f39e8249608cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 115013600}
+  aim_points:
+  - {fileID: 982419705}
+  - {fileID: 0}
   aim_point: {fileID: 982419705}
-  stealSeconds: 5
+  aimDistance: 0.45
 --- !u!1 &1428942296
 GameObject:
   m_ObjectHideFlags: 0
@@ -4082,7 +4109,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -4177,15 +4204,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1585849207}
-  - component: {fileID: 1585849209}
   - component: {fileID: 1585849208}
+  - component: {fileID: 1585849209}
   m_Layer: 0
   m_Name: Woman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1585849207
 Transform:
   m_ObjectHideFlags: 0
@@ -4232,12 +4259,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1585849206}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 045b1a63886992e4da6bd32e701e6cc8, type: 3}
+  m_Script: {fileID: 11500000, guid: 3689522958efbaa4586f39e8249608cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 61649565}
+  aim_points:
+  - {fileID: 982419705}
+  - {fileID: 225893642}
   aim_point: {fileID: 225893642}
-  stealSeconds: 5
+  aimDistance: 0.45
 --- !u!1001 &1617595712
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1587,6 +1587,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: walk_point_prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 4946883121597583541, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6757554331603542633, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7853847380172273915, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -2674,6 +2682,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: walk_point_prefab (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4946883121597583541, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6757554331603542633, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7853847380172273915, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -2946,8 +2962,16 @@ PrefabInstance:
       value: walk_point_prefab (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4946883121597583541, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4946883121597583541, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
       propertyPath: m_TagString
       value: TargetPoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 6757554331603542633, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7853847380172273915, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
       propertyPath: m_RootOrder
@@ -3232,7 +3256,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -3842,6 +3866,14 @@ PrefabInstance:
     - target: {fileID: 4816613137805593600, guid: 1fd3ac3c804d2dd6380e10956b8565df, type: 3}
       propertyPath: m_Name
       value: SpawnPoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 4816613137805593600, guid: 1fd3ac3c804d2dd6380e10956b8565df, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6609437077185724124, guid: 1fd3ac3c804d2dd6380e10956b8565df, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7674326493041665102, guid: 1fd3ac3c804d2dd6380e10956b8565df, type: 3}
       propertyPath: m_RootOrder
@@ -4992,6 +5024,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: walk_point_prefab (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4946883121597583541, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6757554331603542633, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7853847380172273915, guid: ab4e5e35fadb1794cbb9baf266a11502, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5866,6 +5906,14 @@ PrefabInstance:
     - target: {fileID: 3299909800088084548, guid: 77ae4e2162341c546b7d4f24a20678eb, type: 3}
       propertyPath: m_Name
       value: sweet_machine Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 4097707903028380552, guid: 77ae4e2162341c546b7d4f24a20678eb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112955764124564486, guid: 77ae4e2162341c546b7d4f24a20678eb, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77ae4e2162341c546b7d4f24a20678eb, type: 3}
